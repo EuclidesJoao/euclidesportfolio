@@ -1,0 +1,15 @@
+.header{
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    position: fixed;
+    background-color: #edf2fb;
+}
+
+.header .icon{
+    width: 2.8rem;
+    height: 2.8rem;
+}
+.header .icon img{
+    width:100%;
+}
