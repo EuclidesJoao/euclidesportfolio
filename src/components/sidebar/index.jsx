@@ -1,4 +1,4 @@
-import '../assets/styles/sidebar.css'
+import './index.css'
 import { NavLink } from 'react-router-dom'
 
 export default function sidebar() {

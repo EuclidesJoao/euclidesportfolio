@@ -1,0 +1,9 @@
+.home{
+    height: 100vh;   
+}
+
+.home .content{
+
+    height: 100%;
+    overflow-x: hidden;
+}

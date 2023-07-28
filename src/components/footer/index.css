@@ -1,0 +1,21 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+}
+.footer .socialmedia{
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: center;
+}
+.footer ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-radius: 0.5rem;
+    background: #19A7CE;
+    color: #fff;
+}
+.footer .socialmedia ul li .icon{
+    color: #fff;
+
+}
