@@ -39,19 +39,19 @@ export default function Header() {
 
         <ul className='d-md-flex d-none align-items-center menulist'>
           <li>
-            <NavLink>Home</NavLink>
+            <NavLink to='/'>Home</NavLink>
           </li>
 
           <li>
-            <NavLink>About</NavLink>
+            <NavLink to='about'>About</NavLink>
           </li>
 
           <li>
-            <NavLink>Projects</NavLink>
+            <NavLink to='projects'>Projects</NavLink>
           </li>
 
           <li>
-            <NavLink>Contacts</NavLink>
+            <NavLink to='contacts'>Contacts</NavLink>
           </li>
         </ul>
 
