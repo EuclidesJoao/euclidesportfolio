@@ -17,7 +17,7 @@ export const Footer=()=> {
         <ul className="d-flex">
 
           <li>
-              <NavLink>
+              <NavLink to='https://www.facebook.com/euclides.manuel.3386/' target='_blank'>
                 <IconButton>
                   <Facebookicon className="icon"/>
                 </IconButton>            
@@ -25,7 +25,7 @@ export const Footer=()=> {
           </li>
 
           <li>
-              <NavLink>
+              <NavLink to='https://www.instagram.com/euclidesjoao.dev/' target='_blank'>
                 <IconButton>
                   <Instagramicon className="icon"/>
                 </IconButton>
@@ -40,7 +40,7 @@ export const Footer=()=> {
               </NavLink>
           </li>
           <li>
-            <NavLink>
+            <NavLink to='https://github.com/John-3-3' target='_blank'>
               <IconButton>
                 <GitHubicon className="icon"/>
               </IconButton>
@@ -48,7 +48,7 @@ export const Footer=()=> {
           </li>
 
           <li>
-              <NavLink>
+              <NavLink to='https://www.youtube.com/channel/UCXsHxZWa8eX3GAk-xqIviZw' target='_blank'>
                 <IconButton>
                   <Youtubeicon className="icon"/>
                 </IconButton>
@@ -56,7 +56,7 @@ export const Footer=()=> {
           </li>
 
           <li>
-            <NavLink>
+            <NavLink to='https://twitter.com/Mr_Euclides' target='_target'>
               <IconButton>
                 <Twittericon className="icon"/>
               </IconButton>
