@@ -1,12 +1,8 @@
 import './index.css'
 import { NavLink } from "react-router-dom"
-import { Facebookicon } from "../facebookIcon"
-import { Instagramicon } from "../instagram"
-import { Linkedinicon } from "../linkedinIcon"
-import { Twittericon } from "../twitterIcon"
-import { Youtubeicon } from "../youtubeIcon"
 import { IconButton } from "@mui/material"
-import { GitHubicon } from '../gitHubIcon'
+
+import { LinkedIn, Twitter, Youtube, Instagram, GitHub, Facebook } from '../icons'
 
 export const Footer=()=> {
   return (
@@ -19,7 +15,7 @@ export const Footer=()=> {
           <li>
               <NavLink to='https://www.facebook.com/euclides.manuel.3386/' target='_blank'>
                 <IconButton>
-                  <Facebookicon className="icon"/>
+                  <Facebook className="icon"/>
                 </IconButton>            
               </NavLink>
           </li>
@@ -27,7 +23,7 @@ export const Footer=()=> {
           <li>
               <NavLink to='https://www.instagram.com/euclidesjoao.dev/' target='_blank'>
                 <IconButton>
-                  <Instagramicon className="icon"/>
+                  <Instagram className="icon"/>
                 </IconButton>
               </NavLink>
           </li>
@@ -35,14 +31,14 @@ export const Footer=()=> {
           <li>
               <NavLink>
                 <IconButton>
-                  <Linkedinicon className="icon"/>
+                  <LinkedIn className="icon"/>
                 </IconButton>
               </NavLink>
           </li>
           <li>
             <NavLink to='https://github.com/John-3-3' target='_blank'>
               <IconButton>
-                <GitHubicon className="icon"/>
+                <GitHub className="icon"/>
               </IconButton>
             </NavLink>
           </li>
@@ -50,7 +46,7 @@ export const Footer=()=> {
           <li>
               <NavLink to='https://www.youtube.com/channel/UCXsHxZWa8eX3GAk-xqIviZw' target='_blank'>
                 <IconButton>
-                  <Youtubeicon className="icon"/>
+                  <Youtube className="icon"/>
                 </IconButton>
               </NavLink>
           </li>
@@ -58,7 +54,7 @@ export const Footer=()=> {
           <li>
             <NavLink to='https://twitter.com/Mr_Euclides' target='_target'>
               <IconButton>
-                <Twittericon className="icon"/>
+                <Twitter className="icon"/>
               </IconButton>
             </NavLink>
           </li>

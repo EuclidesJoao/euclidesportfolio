@@ -1,8 +1,8 @@
 import {Route, Routes} from 'react-router-dom'
 import Runnings from './layouts/runnings';
-import Home from './pages/home';
-import Contacts from './pages/contacts';
-import Projects from './pages/projects';
+import Home from './pages/home/index';
+import Contacts from './pages/contacts/index';
+import Projects from './pages/projects/index';
 import About from './pages/about';
 
 function App() {

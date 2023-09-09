@@ -1,0 +1,10 @@
+.projects .project{
+
+}
+.projects .project img{
+    width: 100%;
+}
+
+.projects .list{
+    display: flex;
+}
