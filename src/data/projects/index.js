@@ -1,30 +1,20 @@
-import image1 from '../../assets/images/png/Color-1.png'
-import image2 from '../../assets/images/png/Color-2.png'
+import ClimaTropical from '../../assets/images/png/Clima Tropical.png';
+import Cubico from '../../assets/images/png/Cubico-Logo.png';
 
 export const projects = [
     {
+        name: "Clima Tropical",
+        link: "",
+        image: ClimaTropical,
+        description: '',
+        tecnologies: ['React', 'BootStrap', 'CSS']
+    },
+    {
         name: "Cubico",
         link: "",
-        image: image1,
-    },
-    {
-        name: "Next Store",
-        link: "",
-        image: image2,
-    },
-    {
-        name: "Livraria Paulinas",
-        link: "",
-        image: image1,
-    },
-    {
-        name: "Livraria Paulinas",
-        link: "",
-        image: image2,
-    },
-    {
-        name: "Livraria Paulinas",
-        link: "",
-        image: image1,
+        image: Cubico,
+        description: '',
+        tecnologies: ['React', 'BootStrap', 'CSS']
     }
+    
 ]

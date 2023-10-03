@@ -1,8 +1,34 @@
 export const skills = [
-    { name: 'HTML'}, { name: 'CSS' }, { name: 'JavaScript',},
-    { name: 'Data Structure'}, { name:  'HTML'}, { name: 'HTML' },
-    { name: 'React.js'}, { name: 'React Native' }, {name: 'BootStrap'},
-    { name: 'Redux'}, { name: 'TypeScript'}, { name: 'Node.js'}, { name: 'Nest.js'}, 
-    { name: 'Express.js'}, { name: 'Next.js'}, { name: 'C#' }, { name: 'Razor Pages' }, 
-    { name: 'Figma' }, { name: 'Git' }, { name: 'PostgreSQL' },{name: 'MySQL'} , {name : 'MongoDB' } 
+    { name: 'C Language'}, 
+    { name: 'JavaScript',}, 
+    { name: 'TypeScript'}, 
+    { name: 'C#' }, 
+    { name: 'Python'},
+    { name: 'Data Structure'},
+
+    { name: 'Node.js'}, 
+    { name: 'Express.js'},
+    { name: 'Nest.js'}, 
+    { name: 'Angular'},
+    { name: 'Linux'},
+    { name: '.NET'},
+    { name: 'JSON'},
+    { name: 'Git' }, 
+    { name: 'GitHub'},
+
+    { name: 'HTML'}, 
+    { name: 'CSS' }, 
+    { name: 'Razor Pages' }, 
+    { name: 'React.js'}, 
+    { name: 'React Native' }, 
+    { name: 'Figma' },     
+    { name: 'BootStrap'}, 
+    { name: 'Redux'},    
+    { name: 'Next.js'},  
+
+    
+    { name: 'SQL'},
+    { name: 'MySQL'} , 
+    { name: 'PostgreSQL' },
+    { name: 'MongoDB' } 
 ]

@@ -1,10 +1,19 @@
 .projects .project{
 
+    height: 15rem;
+    border-radius: 2rem;
 }
-.projects .project img{
-    width: 100%;
+.projects .project div img{
+    width: 18rem;
+}
+.projects .project a{
+    text-decoration: none;
 }
 
 .projects .list{
     display: flex;
+}
+
+ul{
+    list-style: none;
 }

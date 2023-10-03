@@ -1,10 +1,10 @@
 import './index.css'
 import image from '../../assets/images/undraw_mailbox_re_dvds.svg'
+
 export default function Contacts() {
   return (
     <div className='container contacts d-flex flex-column justify-content-center align-items-center'>
-      
-        <h1>Contact</h1>       
+        
         
         <div className='d-flex '>
           
