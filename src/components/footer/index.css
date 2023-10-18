@@ -12,10 +12,9 @@
     padding: 0;
     list-style: none;
     border-radius: 0.5rem;
-    background: #19A7CE;
+    background: darkgray;
     color: #fff;
 }
 .footer .socialmedia ul li .icon{
     color: #fff;
-
 }

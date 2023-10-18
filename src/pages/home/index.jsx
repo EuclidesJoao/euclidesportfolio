@@ -12,10 +12,8 @@ export default function Home() {
         </div>
 
         <div className="col-md-6 col-12 d-flex flex-column align-items-center justify-content-center">
-          <h1>Hi there!</h1>
-          <h1>My name is Euclides</h1>
-          <h3>I'm a Full-Stack Developer</h3>
-          <p className='text-center'>I'm very happy to welcome you to my portfolio, feel free to explore it and get in contact</p>
+          <h1>Euclides Joao</h1>
+          <h3>Full Stack Developer</h3>
         </div> 
 
       </div>

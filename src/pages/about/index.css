@@ -1,10 +1,19 @@
-
+h1{
+    color: white;
+}
+p{
+    font-size: 1.1rem;
+    color: darkgray;
+}
+a{
+    text-decoration: none;
+}
 .row{
     height: 100vh;
     overflow:hidden;
 }
 .skills{
-    height: auto;
+    min-height: 25rem;
 }
 .skills ul{
     margin: 0;
@@ -15,7 +24,7 @@
     gap: 1rem;
 }
 .skills ul li{
-    background: #19A7CE;
+    background: darkgray;
     padding: 0.2rem;
     border-radius: 0.4rem;
     font-weight: 500;
@@ -31,6 +40,6 @@ img{
     transform: scale(1.1);
 }
 
-.content{
-    height: fit-content;
+.about{
+    min-height: 25rem;
 }

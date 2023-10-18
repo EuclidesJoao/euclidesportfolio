@@ -7,14 +7,21 @@ export const projects = [
         link: "",
         image: ClimaTropical,
         description: '',
-        tecnologies: ['React', 'BootStrap', 'CSS']
+        tecnologies: ['React', 'BootStrap', 'CSS', 'React Router']
     },
     {
         name: "Cubico",
         link: "",
         image: Cubico,
         description: '',
-        tecnologies: ['React', 'BootStrap', 'CSS']
+        tecnologies: ['React.js', 'BootStrap', 'CSS', 'Nest.js', 'MongoDB', 'TypeScript', 'Redux', 'React Router']
+    },
+    {
+        name: "Next Store",
+        link: "",
+        image: Cubico,
+        description: '',
+        tecnologies: ['React.js', 'BootStrap', 'CSS', 'Redux', 'PostgreSQL', 'NodeJs', 'Express.js', 'TypeScript', 'React Router']
     }
     
 ]
