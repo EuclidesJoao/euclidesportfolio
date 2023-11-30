@@ -8,6 +8,16 @@ import { NavLink } from 'react-router-dom';
 
 export default function Header() {
 
+  const activePage = window.location.pathname;
+  const navLink = document.querySelectorAll('ul li a').forEach(
+    link=>{
+      if (link.href.includes(`${activePage}`)) {
+        link.classList.add('active')
+      }
+    }
+  )
+
+
   return (
     <div className="container-fluid header p-3">
       
@@ -21,19 +31,19 @@ export default function Header() {
 
         <ul className='w-100 d-md-flex d-none align-items-center justify-content-md-center menulist'>
           <li>
-            <NavLink to='/'>Home</NavLink>
+            <NavLink to='/' className='nav-link'>Home</NavLink>
           </li>
 
           <li>
-            <NavLink to='about'>About</NavLink>
+            <NavLink to='about' className='nav-link'>About</NavLink>
           </li>
 
           <li>
-            <NavLink to='projects'>Projects</NavLink>
+            <NavLink to='projects' className='nav-link'>Projects</NavLink>
           </li>
 
           <li>
-            <NavLink to='contacts'>Contacts</NavLink>
+            <NavLink to='contacts' className='nav-link'>Contacts</NavLink>
           </li>
         </ul>
 

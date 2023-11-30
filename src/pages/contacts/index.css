@@ -12,6 +12,7 @@
 }
 .contacts form h1{
     color: white;
+    border-bottom: 0.1rem solid white;
 }
 
 .contacts form label{
@@ -19,8 +20,9 @@
     color: white;
 }
 .contacts form input{
+    color: white;
     background: darkgrey;
-    padding: 0.4rem;
+    padding: 0.2rem;
 }
 .contacts form input[type = "text"]{
     border-radius: 0.2rem;
@@ -40,6 +42,9 @@
     padding: 0.4rem;
 }
 .contacts form input[type = "submit"]{
+    background: white;
+    color: black;
+    font-weight: 500;
     border-radius: 0.2rem;
     width: 100%;
     border: none;
