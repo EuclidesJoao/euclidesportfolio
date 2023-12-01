@@ -52,3 +52,12 @@
 .contacts form input[type = "submit"]:hover{
     background: #4bb543;
 }
+
+
+@media screen and (max-width: '400px') {
+ 
+    .contacts{
+        height: 100%;
+    }
+
+}
