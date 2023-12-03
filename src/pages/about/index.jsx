@@ -40,9 +40,11 @@ export default function About() {
               {
                 skills.map((skill)=>{
                   return(
-                     <li className='px-3' key={skill.id}>{skill.name}</li>
+                    <li className='tip px-3' key={skill.id}>
+                      {skill.icon}
+                      <span className='tiptext'>{skill.name}</span>
+                    </li>
                   )
-                 
                 })
               }
             </ul>

@@ -1,34 +1,99 @@
+import { FaReact, FaNodeJs, FaGithub, FaCss3, FaHtml5, FaFigma, FaBootstrap  } from "react-icons/fa";
+import { RiJavascriptFill } from "react-icons/ri";
+import { BiLogoTypescript, BiLogoPostgresql  } from "react-icons/bi";
+import { TbJson, TbBrandNextjs } from "react-icons/tb";
+import { SiNestjs,  SiExpress, SiMongodb, SiMysql, SiCsharp } from "react-icons/si";
+
 export const skills = [
-    { name: 'C Language'}, 
-    { name: 'JavaScript',}, 
-    { name: 'TypeScript'}, 
-    { name: 'C#' }, 
-    { name: 'Python'},
-    { name: 'Data Structure'},
+    {
+        name: 'Figma',
+        icon: <FaFigma className="icon"/>
+    },
 
-    { name: 'Node.js'}, 
-    { name: 'Express.js'},
-    { name: 'Nest.js'}, 
-    { name: 'Angular'},
-    { name: 'Linux'},
-    { name: '.NET'},
-    { name: 'JSON'},
-    { name: 'Git' }, 
-    { name: 'GitHub'},
+    {
+        name: 'GitHub',
+        icon: <FaGithub className="icon"/>
+    },
 
-    { name: 'HTML'}, 
-    { name: 'CSS' }, 
-    { name: 'Razor Pages' }, 
-    { name: 'React.js'}, 
-    { name: 'React Native' }, 
-    { name: 'Figma' },     
-    { name: 'BootStrap'}, 
-    { name: 'Redux'},    
-    { name: 'Next.js'},  
+    {
+        name: 'HTML5',
+        icon: <FaHtml5 className="icon"/>
+    },
 
-    
-    { name: 'SQL'},
-    { name: 'MySQL'} , 
-    { name: 'PostgreSQL' },
-    { name: 'MongoDB' } 
+    {
+        name: 'CSS3',
+        icon: <FaCss3 className="icon"/>
+    },
+
+    {
+        name: 'Bootstrap',
+        icon: <FaBootstrap className="icon"/>
+    },
+
+    {
+        name: 'JavaScript',
+        icon: <RiJavascriptFill className="icon"/>
+    },
+
+    {
+        name: 'Reactjs',
+        icon: <FaReact className="icon"/>
+    },
+
+
+    {
+        name: 'NodeJs',
+        icon: <FaNodeJs className="icon"/>
+    },
+
+    {
+        name: 'NestJs',
+        icon: <SiNestjs className="icon"/>
+    },
+
+    {
+        name: 'Express.js',
+        icon: <SiExpress className="icon"/>
+    },
+
+    {
+        name: 'TypeScript',
+        icon: <BiLogoTypescript className="icon"/>
+    },
+
+    {
+        name: 'JSON',
+        icon: <TbJson className="icon"/>
+    },
+
+    {
+        name: 'MongoDB',
+        icon: <SiMongodb className="icon"/>
+    },
+
+    {
+        name: 'MySQL',
+        icon: <SiMysql className="icon"/>
+    },
+
+    {
+        name: 'PostgreSQL',
+        icon: <BiLogoPostgresql className="icon"/>
+    },
+
+    {
+        name: 'Csharp',
+        icon: <SiCsharp className="icon"/>
+    },
+
+    {
+        name: 'Nextjs',
+        icon: <TbBrandNextjs className="icon"/>
+    }, 
+
+    {
+        name: 'React Native',
+        icon: <FaReact className="icon"/>
+    } 
+
 ]

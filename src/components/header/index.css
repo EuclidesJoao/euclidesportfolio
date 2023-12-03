@@ -19,10 +19,13 @@
     list-style: none;
 }
 .header .menulist a{
-    color: #fff;
+    color: darkgrey;
     text-decoration: none;
 }
 
 .header .menulist .active{
+    color: white;
     border-bottom: 0.1rem solid white;
 }
+
+

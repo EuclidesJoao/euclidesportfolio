@@ -2,7 +2,6 @@ import './index.css'
 import { NavLink } from "react-router-dom"
 import { FaFacebook, FaInstagram, FaYoutube, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
-
 export const Footer=()=> {
 
   return (
@@ -47,9 +46,11 @@ export const Footer=()=> {
               <FaTwitter className='icon'/>
             </NavLink>
           </li>
+
         </ul>
 
       </div>
+
     </div>
   )
 }
