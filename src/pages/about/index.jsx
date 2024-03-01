@@ -31,9 +31,11 @@ export default function About() {
                 then don't hesitate to <NavLink to='/contacts'>contact me.</NavLink>
               </p>
             </div>
+
           </div>
 
           <div className='col-md-6 col-12 skills'> 
+          
             <h1 className='mb-5'>My skills</h1>
 
             <ul className='d-flex'>

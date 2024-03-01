@@ -40,7 +40,6 @@ export const skills = [
         icon: <FaReact className="icon"/>
     },
 
-
     {
         name: 'NodeJs',
         icon: <FaNodeJs className="icon"/>
@@ -95,5 +94,4 @@ export const skills = [
         name: 'React Native',
         icon: <FaReact className="icon"/>
     } 
-
 ]
