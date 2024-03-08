@@ -1,6 +1,7 @@
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {faSkype} from '@fortawesome/free-solid-svg-icons'
+import MenuIcon from '@mui/icons-material/Menu';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -11,6 +12,14 @@ export const Twitter=()=>{
   return (
     <>
       <TwitterIcon className='icon'/>
+    </>
+  )
+}
+
+export const Menu=()=>{
+  return (
+    <>
+      <MenuIcon className='icon'/>
     </>
   )
 }
