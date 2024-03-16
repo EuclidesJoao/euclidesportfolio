@@ -1,8 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 h2 {
   color: white;
 }
-p,
+h5 {
+  color: white;
+  font-weight: 600;
+}
+p {
+  color: white;
+  font-size: 0.9rem !important;
+}
 li {
+  color: black;
   font-weight: 200;
 }
 ul {
@@ -10,29 +22,35 @@ ul {
   padding: 0;
 }
 
-.projects {
+.content {
+  height: 100vh;
   width: 100%;
-  min-height: 100vh;
   margin: 0;
   padding: 0;
-  overflow: hidden;
 }
-.projects .project {
-  border-radius: 0.4rem;
-  width: 100%;
-  height: 60vh;
-  gap: 1rem;
-}
-.projects .project .visual {
-  padding: 0;
-  width: 50%;
-}
-.projects .project .visual img {
-  width: 100%;
+.content .carousel {
   height: 100%;
-  object-position: center;
 }
-.projects .project .description {
-  width: 50%;
-  background: #212529;
+.carousel-item {
+}
+.carousel-indicators {
+  margin-bottom: 5%;
+}
+.project .visual {
+  width: 30rem;
+
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+.project .description {
+  width: 30rem;
+}
+.project {
+  gap: 2rem;
+}
+.icon {
+  font-size: 1.8rem;
+}
+.techs {
+  gap: 2rem;
 }

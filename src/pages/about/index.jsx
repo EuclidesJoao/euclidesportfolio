@@ -1,7 +1,6 @@
 import './index.css';
-import {skills} from '../../data/skills/index';
-
-import { NavLink, Link } from 'react-router-dom';
+import { skills } from '../../data/skills/index';
+import { NavLink } from 'react-router-dom';
 
 export default function About() {
 
@@ -10,7 +9,6 @@ export default function About() {
 
       <div className='d-flex flex-column align-items-center justify-content-center'>
 
-  
         <div className='row d-flex justify-content-center align-items-center '>
           
           <div className='col-md-6 col-12 about'> 
@@ -35,7 +33,6 @@ export default function About() {
           </div>
 
           <div className='col-md-6 col-12 skills'> 
-          
             <h1 className='mb-5'>My skills</h1>
 
             <ul className='d-flex'>
