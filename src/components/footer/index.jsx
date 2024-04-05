@@ -24,7 +24,7 @@ export const Footer=()=> {
           </li>
 
           <li>
-              <NavLink>
+              <NavLink to='https://www.linkedin.com/in/euclides-joão-19887a302'  target='_blank'>
                 <FaLinkedin className='icon'/>
               </NavLink>
           </li>
