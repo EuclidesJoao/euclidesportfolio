@@ -1,6 +1,7 @@
 .footer{
     position: fixed;
     bottom: 0;
+    background-color: #121212;
 }
 .footer .socialmedia{
     padding: 0.8rem 0;

@@ -1,61 +1,108 @@
-h1{
-    color: white;
-}
-p{
-    font-size: 1.1rem;
-    color: white;
-}
-a{
-    text-decoration: none;
-}
-.row{
-    height: 100vh;
-    overflow:hidden;
-}
-.skills{
-    min-height: 25rem;
-}
-.skills ul{
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #121212; */
+    color: #ffffff;
     margin: 0;
     padding: 0;
+}
+
+/* Container */
+.container {
+    padding: 2rem;
+    height: 100vh;
+
+}
+.row {
+    display: flex;
+    justify-content: center; /* Center the columns horizontally */
+    align-items: center;     /* Center the columns vertically */
+
+  }
+
+/* Section Title */
+.section-title {
+    color: #ffffff;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    margin-bottom: 20px; /* Optional: Adjust margin */
+}
+
+/* About Section */
+.about {
+  min-height: 25rem;
+}
+.about p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #e0e0e0;
+}
+
+
+/* Navigation Links */
+a {
+    color: #4db6ac;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Skills Section */
+.skills {
+    min-height: 25rem;
+}
+
+.skills ul {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
+    padding: 0;
+    margin: 0;
     gap: 1rem;
+    /* justify-content: center; */
 }
-.skills ul li{
-    color: white;
-    padding: 0.2rem;
-    border-radius: 0.4rem;
+
+.skills ul li {
+    background: #333;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
     font-weight: 500;
     cursor: pointer;
-    transition: all 0.5s ease-in-out;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    position: relative;
 }
 .skills ul li .icon{
-    color: white;
-    font-size: 2.5rem;
+  width: 2rem;
+  height: 2rem;
 }
-.skills .tip {
-    position: relative;
-    display: inline-block;
+
+.skills ul li:hover {
+    transform: scale(1.1);
+    background: #4db6ac;
 }
-  
-.skills .tip .tiptext {
+
+/* Tooltip Styles */
+.tip .tiptext {
     visibility: hidden;
     width: 120px;
-    background-color: white;
-    color: black;
+    background-color: #333;
+    color: #ffffff;
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
     position: absolute;
     z-index: 1;
-    bottom: 150%;
+    bottom: 100%;
     left: 50%;
     margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
 }
-  
-.skills .tip .tiptext::after {
+
+.tip .tiptext::after {
     content: "";
     position: absolute;
     top: 100%;
@@ -63,24 +110,82 @@ a{
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: white transparent transparent transparent;
+    border-color: #333 transparent transparent transparent;
 }
-.skills .tip:hover .tiptext {
+
+.tip:hover .tiptext {
     visibility: visible;
+    opacity: 1;
 }
 
 
 
-.about{
-    min-height: 25rem;
-}
 
 
-img{
-    width: auto;
-}
-.skills ul li:hover{
-    color: white;
-    transform: scale(1.1);
-}
 
+
+
+
+
+
+/* about-container {
+    padding: 2rem;
+    /* background-color: #f4f7f6; 
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .about-me, .skills-section {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .about-text {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 1rem;
+  }
+  
+  .link-highlight {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .link-highlight:hover {
+    text-decoration: underline;
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .skill-item {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #e9ecef;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skill-name {
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    color: #333;
+  }
+   */

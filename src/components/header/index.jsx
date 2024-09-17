@@ -1,54 +1,46 @@
+import React, { useState } from 'react';
 import './index.css';
 import '../../assets/styles/geral.css';
-import { Menu } from '../icons/index'
+import { Menu } from '../icons/index';
 import { IconButton } from '@mui/material';
 import { NavLink } from 'react-router-dom';
-//import { SettingIcon } from '../settingsIcon';
 
+const Header = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-export default function Header() {
-
-  const activePage = window.location.pathname;
-  const navLink = document.querySelectorAll('ul li a').forEach(
-    link=>{
-      if (link.href.includes(`${activePage}`)) {
-        link.classList.add('active')
-      }
-    }
-  )
-
+  const handleMenuToggle = () => setIsMenuOpen(prevState => !prevState);
 
   return (
-    <div className="container-fluid header p-3">
-      
+    <div className="header container-fluid p-3">
       <div className="d-flex justify-content-between">
-
-        <div className='d-md-none '>
-          <IconButton>
-            <Menu/>
+        <div className="d-md-none">
+          <IconButton onClick={handleMenuToggle} aria-expanded={isMenuOpen}>
+            <Menu />
           </IconButton>
         </div>
 
-        <ul className='w-100 d-md-flex d-none align-items-center justify-content-md-center menulist'>
-          <li>
-            <NavLink to='/' className='nav-link'>Home</NavLink>
-          </li>
-
-          <li>
-            <NavLink to='about' className='nav-link'>About</NavLink>
-          </li>
-
-          <li>
-            <NavLink to='projects' className='nav-link'>Projects</NavLink>
-          </li>
-
-          <li>
-            <NavLink to='contacts' className='nav-link'>Contacts</NavLink>
-          </li>
+        {/* Mobile Menu */}
+        <ul className={`mobile-menu d-md-none ${isMenuOpen ? 'show' : ''}`}>
+          <li><NavLink to='/' className="nav-link" onClick={handleMenuToggle} >Home</NavLink></li>
+          {['About', 'Projects', 'Contacts'].map((item) => (
+            <li key={item}>
+              <NavLink to={item.toLowerCase()} className="nav-link" onClick={handleMenuToggle} >{item}</NavLink>
+            </li>
+          ))}
         </ul>
 
+        {/* Desktop Menu */}
+        <ul className="desktop-menu w-100 d-md-flex d-none align-items-center justify-content-md-center">
+          <li><NavLink to='/' className="nav-link" onClick={handleMenuToggle} >Home</NavLink></li>
+          {['About', 'Projects', 'Contacts'].map((item) => (
+            <li key={item}>
+              <NavLink to={item.toLowerCase()} className="nav-link">{item}</NavLink>
+            </li>
+          ))}
+        </ul>
       </div>
-
     </div>
-  )
-}
+  );
+};
+
+export default Header;

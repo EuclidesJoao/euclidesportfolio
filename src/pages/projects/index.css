@@ -1,56 +1,75 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-h2 {
-  color: white;
-}
-h5 {
-  color: white;
-  font-weight: 600;
-}
-p {
-  color: white;
-  font-size: 0.9rem !important;
-}
-li {
-  color: black;
-  font-weight: 200;
-}
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-.content {
-  height: 100vh;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-.content .carousel {
-  height: 100%;
-}
-.carousel-item {
-}
-.carousel-indicators {
-  margin-bottom: 5%;
-}
-.project .visual {
-  width: 30rem;
-
-  overflow: hidden;
-  border-radius: 0.5rem;
-}
-.project .description {
-  width: 30rem;
-}
+/* Base Styles */
 .project {
-  gap: 2rem;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.icon {
-  font-size: 1.8rem;
+
+.project .content {
+  text-align: center;
+  padding: 2rem;
+  max-width: 800px;
 }
-.techs {
-  gap: 2rem;
+
+.content img {
+  width: 100%;
+  max-width: 300px; /* Adjust to desired max width */
+  height: auto;
+  margin-bottom: 1.5rem;
+}
+
+h1 {
+  color: #00796b; /* Use a nice green shade */
+  font-size: 2.5rem; /* Larger font size for prominence */
+  margin-bottom: 1rem;
+}
+
+p.lead {
+  color: #fff; /* Darker text color for better readability */
+  font-size: 1.125rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.btn-primary {
+  background-color: #00796b;
+  border-color: #00796b;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 0.3rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-primary:hover {
+  background-color: #004d40; /* Darker shade on hover */
+  border-color: #004d40;
+  text-decoration: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .project {
+    height: auto;
+  }
+  .content {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  p.lead {
+    font-size: 1rem;
+  }
+
+  .btn-primary {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+  }
 }

@@ -1,11 +1,47 @@
-h3{
-    color: darkgrey;
-}
-.home{
+/* index.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container.home {
     height: 100vh;
-}
+  }
 
-.euclidesPhoto{
-    width: 25rem;
-    border-radius: 50%;
+  /* Media Queries */
+@media (max-width: 768px) {
+  .container.home {
+    height: auto;
+  }
 }
+  
+  .row {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .euclidesPhoto {
+    width: 20rem;
+    border-radius: 50%;
+    border: 5px solid #4db6ac;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .name {
+    font-size: 3rem;
+    color: #004d40;
+    margin-bottom: 0.5rem;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    color: #4db6ac;
+    margin-top: 0;
+    font-weight: 300;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  

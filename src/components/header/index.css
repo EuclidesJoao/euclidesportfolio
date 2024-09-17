@@ -2,27 +2,73 @@
   top: 0;
   z-index: 1000;
   position: fixed;
+  background-color: #121212;
+  width: 100%;
 }
 
 .header .icon {
   font-size: 2.5rem;
 }
+
 .header .icon img {
   width: 100%;
 }
 
-.header .menulist {
-  gap: 1.5rem;
+.header .desktop-menu,
+.header .mobile-menu {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.header .menulist a {
+
+.header .desktop-menu {
+  gap: 1.5rem;
+  display: flex;
+}
+
+.header .desktop-menu a {
   color: darkgrey;
   text-decoration: none;
 }
 
-.header .menulist .active {
+.header .desktop-menu .active {
   color: white;
   border-bottom: 0.1rem solid white;
+}
+
+.mobile-menu {
+  display: none; /* Hide mobile menu by default */
+  background: #333;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 4rem;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  transition: transform 0.3s ease-in-out;
+  transform: translateY(-100%); /* Hide mobile menu off-screen */
+}
+.mobile-menu li a{
+  color: #4db6ac;
+}
+
+.mobile-menu.show {
+  display: flex; /* Show mobile menu when 'show' class is added */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(0); /* Slide mobile menu into view */
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  .mobile-menu {
+    display: none; /* Hide mobile menu on larger screens */
+  }
+
+  .desktop-menu {
+    display: flex; /* Show desktop menu on larger screens */
+  }
 }
