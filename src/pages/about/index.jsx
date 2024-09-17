@@ -13,7 +13,7 @@ export default function About() {
             My full name is Euclides Manuel João. I am a Software Developer, UI/UX Designer, Video Director, 
             Artist, Thinker, and Chess Player. I have a great passion for software development, 
             algorithms, systems design, and art. This passion has driven me to build the front-end of websites, web applications, 
-            mobile applications, and backend APIs, contributing to the success of the overall product. Check out some of my works in the <NavLink to='/projects'>projects</NavLink> section. <br/><br/>
+            mobile applications, and backend APIs, contributing to the success of the overall product. Check out some of my works in the <NavLink to='/projects'>projects</NavLink> section. <br/>
             
             When I'm not coding, I enjoy playing chess, hanging out with friends, or making music. If you appreciate good music, visit my YouTube channel <NavLink to='https://www.youtube.com/@euclidesgm'>Euclide$ GM</NavLink>. <br/>
           
