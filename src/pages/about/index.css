@@ -35,7 +35,7 @@ body {
 .about p {
     font-size: 1.1rem;
     line-height: 1.6;
-    color: #e0e0e0;
+    color: black;
 }
 
 
@@ -65,23 +65,28 @@ a:hover {
 }
 
 .skills ul li {
-    background: #333;
-    color: #ffffff;
+
+    /* color: #ffffff; */
+ 
+    box-shadow: 1rem #4db6ac;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
     font-weight: 500;
     cursor: pointer;
     transition: transform 0.3s ease, background-color 0.3s ease;
     position: relative;
+    box-shadow: 0 8px 10px #4db6ac; /* Enhance shadow on hover */
 }
 .skills ul li .icon{
-  width: 2rem;
-  height: 2rem;
+  width: 2.8rem;
+  height: 2.8rem;
+  fill: #4db6ac;
+  color: #4db6ac;
 }
 
 .skills ul li:hover {
     transform: scale(1.1);
-    background: #4db6ac;
+    /* background: #4db6ac; */
 }
 
 /* Tooltip Styles */

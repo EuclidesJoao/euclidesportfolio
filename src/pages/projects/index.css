@@ -28,7 +28,7 @@ h1 {
 }
 
 p.lead {
-  color: #fff; /* Darker text color for better readability */
+  color: black; /* Darker text color for better readability */
   font-size: 1.125rem;
   line-height: 1.6;
   margin-bottom: 2rem;

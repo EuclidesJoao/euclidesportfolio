@@ -1,7 +1,7 @@
 .footer{
     position: fixed;
     bottom: 0;
-    background-color: #121212;
+    /* background-color: #121212; */
 }
 .footer .socialmedia{
     padding: 0.8rem 0;
@@ -17,6 +17,7 @@
     color: #fff;
 }
 .footer .socialmedia ul li .icon{
-    color: #fff;
-    font-size: 1.5rem;
+    fill: #004d40; /* Use 'fill' instead of 'color' for SVGs */
+    width: 1.8rem; /* Set width if needed */
+    height: 1.8rem; /* Set height if needed */
 }

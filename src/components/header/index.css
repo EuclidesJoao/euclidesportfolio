@@ -2,7 +2,6 @@
   top: 0;
   z-index: 1000;
   position: fixed;
-  background-color: #121212;
   width: 100%;
 }
 
@@ -27,13 +26,15 @@
 }
 
 .header .desktop-menu a {
-  color: darkgrey;
+  
+  color: #004d40; /* Use 'fill' instead of 'color' for SVGs */
   text-decoration: none;
 }
 
 .header .desktop-menu .active {
-  color: white;
-  border-bottom: 0.1rem solid white;
+  color: #004d40;
+  border-bottom: 0.1rem solid #004d40;
+  font-weight: 600;
 }
 
 .mobile-menu {

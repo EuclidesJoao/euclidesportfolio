@@ -74,10 +74,7 @@ export const skills = [
     icon: <BiLogoTypescript className="icon" />,
   },
 
-  {
-    name: "JSON",
-    icon: <TbJson className="icon" />,
-  },
+
 
   {
     name: "MongoDB",
