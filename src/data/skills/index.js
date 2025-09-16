@@ -107,6 +107,14 @@ export const skills = [
   },
 ];
 
+export const ReactIcon=()=>{
+  return <FaReact className="icon" />
+}
+
+export const NodeJSIcon=()=>{
+  return <FaNodeJs className="icon" />
+}
+
 export const JavaScriptIcon =()=> {
   return <RiJavascriptFill className="icon"/>
 };

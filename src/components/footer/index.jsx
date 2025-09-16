@@ -7,7 +7,7 @@ export const Footer=()=> {
   return (
     <div className='container-fluid footer'>
 
-      <div className='socialmedia'>
+      {/* <div className='socialmedia'>
 
         <ul className="d-flex align-elements-center justify-content-center">
 
@@ -49,7 +49,7 @@ export const Footer=()=> {
 
         </ul>
 
-      </div>
+      </div> */}
 
     </div>
   )

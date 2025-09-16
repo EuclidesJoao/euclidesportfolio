@@ -30,14 +30,14 @@ const Header = () => {
         </ul>
 
         {/* Desktop Menu */}
-        <ul className="desktop-menu w-100 d-md-flex d-none align-items-center justify-content-md-center">
+        {/* <ul className="desktop-menu w-100 d-md-flex d-none align-items-center justify-content-md-center">
           <li><NavLink to='/' className="nav-link" onClick={handleMenuToggle} >Home</NavLink></li>
           {['About', 'Projects', 'Contacts'].map((item) => (
             <li key={item}>
               <NavLink to={item.toLowerCase()} className="nav-link">{item}</NavLink>
             </li>
           ))}
-        </ul>
+        </ul> */}
       </div>
     </div>
   );
